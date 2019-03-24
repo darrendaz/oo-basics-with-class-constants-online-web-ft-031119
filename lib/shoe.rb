@@ -6,13 +6,13 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    brand_array = []
-     << brand
+    @brand_array = []
+    @brand_array << brand
   end
   
-  # def brand=(brand)
-  #   @brand = brand
-  # end
+  def brand
+    BRANDS
+  end
 
   def cobble
     self.condition = "new"
