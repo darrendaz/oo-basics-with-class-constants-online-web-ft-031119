@@ -6,7 +6,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    brand_array = []
+     << brand
   end
   
   # def brand=(brand)
